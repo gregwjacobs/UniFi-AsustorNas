@@ -1,0 +1,47 @@
+{
+  "general":{
+	"package":"unifi",
+	"name":"UniFi Controller",
+	"version":"5.0.7",
+	"depends":[],
+	"conflicts":[],
+	"developer":"https://github.com/rorychatt/UniFi-AsustorNas",
+	"maintainer":"Rory Chatterton",
+	"email":"rorychatt@gmail.com",
+	"website":"https://www.ubnt.com/download/unifi/",
+	"architecture":"i386",
+	"firmware":"2.0"
+  },
+  "adm-desktop":{
+	"app":{
+	  "type":"webserver",
+	  "session-id":"true"
+	},
+	"privilege":{
+	  "accessible":"administrators",
+	  "customizable":true
+	}
+  },
+  "register":{
+	"symbolic-link":{
+	},
+	"share-folder":[
+	  {
+		"name":"Download",
+		"description":"Download default share."
+	  }
+	],
+	"port":[
+	  "8843",
+	  "8880"
+	],
+	"boot-priority":{
+	  "start-order":90,
+	  "stop-order":30
+	},
+	"prerequisites":{
+	  "enable-service":[],
+	  "restart-service":[]
+	}
+  }
+}
