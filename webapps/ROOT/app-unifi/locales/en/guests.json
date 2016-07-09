@@ -1,0 +1,25 @@
+{
+  "GUEST_TABLE_HEADER_PACKAGE": "Package",
+  "GUEST_TABLE_HEADER_AMOUNT": "Amount",
+  "GUEST_TABLE_HEADER_AUTHORIZED_BY": "Authorized by",
+  "GUEST_TABLE_HEADER_DOWNLOAD": "Download",
+  "GUEST_TABLE_HEADER_UPLOAD": "Upload",
+  "GUEST_TABLE_HEADER_STATUS": "Status",
+  "GUEST_TABLE_HEADER_ACTIONS": "Actions",
+  "GUEST_TABLE_HEADER_NAME": "Name",
+  "GUEST_TABLE_HEADER_START": "Start time",
+
+  "GUEST_TABLE_EMPTY_HEADER": "No guests found",
+  "GUEST_TABLE_EMPTY_NO_MATCHES": "No guests match that search criteria.",
+  "GUEST_TABLE_EMPTY_NO_GUESTS": "No guests have been connected.",
+
+  "GUEST_ACTIONS_DISCONNECT": "Disconnect",
+  "GUEST_ACTIONS_DISCONNECT_SUCCESS": "Guest has been disconnected",
+  "GUEST_ACTIONS_DISCONNECT_ERROR": "There was an error disconnecting a guest.",
+  "GUEST_ACTIONS_EXTEND": "Extend",
+  "GUEST_ACTIONS_EXTEND_SUCCESS": "Access has been extended",
+  "GUEST_ACTIONS_EXTEND_ERROR": "There was an error extending an access.",
+
+  "GUEST_STATUS_EXPIRED": "Expired",
+  "GUEST_STATUS_VALID_UNTIL": "Valid until {{date}}"
+}

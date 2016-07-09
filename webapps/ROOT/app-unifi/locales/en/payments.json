@@ -1,0 +1,23 @@
+{
+  "PAYMENT_ACTIONS_REFUND": "Refund",
+  "PAYMENT_ACTIONS_REFUND_CONFIRM_TITLE": "Refund payment",
+  "PAYMENT_ACTIONS_REFUND_CONFIRM_MESSAGE": "Are you sure you want to refund payment?",
+  "PAYMENT_ACTIONS_REFUND_SUCCESS": "The payment has been refunded.",
+  "PAYMENT_ACTIONS_REFUND_ERROR": "There was an error refund the payment.",
+
+  "PAYMENT_STATUS_PAID": "Paid",
+  "PAYMENT_STATUS_VOID": "Voided/Refunded",
+
+  "PAYMENT_TABLE_HEADER_TIME": "Time",
+  "PAYMENT_TABLE_HEADER_LAST_NAME": "Last name",
+  "PAYMENT_TABLE_HEADER_FIRST_NAME": "First name",
+  "PAYMENT_TABLE_HEADER_PACKAGE": "Package",
+  "PAYMENT_TABLE_HEADER_AMOUNT": "Amount",
+  "PAYMENT_TABLE_HEADER_EXTRA_INFO": "Extra info",
+  "PAYMENT_TABLE_HEADER_STATUS": "Status",
+  "PAYMENT_TABLE_HEADER_ACTIONS": "Actions",
+
+  "PAYMENT_TABLE_EMPTY_HEADER": "No payments found",
+  "PAYMENT_TABLE_EMPTY_NO_MATCHES": "No transactions match that search criteria.",
+  "PAYMENT_TABLE_EMPTY_NO_PAYMENTS": "No payments have been received."
+}
