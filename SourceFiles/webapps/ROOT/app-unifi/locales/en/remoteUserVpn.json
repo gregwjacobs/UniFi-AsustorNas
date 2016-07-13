@@ -1,0 +1,22 @@
+{
+  "REMOTE_USER_VPN_TABLE_HEADER_INTERFACE": "Interface",
+  "REMOTE_USER_VPN_TABLE_HEADER_REMOTE_IP": "Remote IP",
+  "REMOTE_USER_VPN_TABLE_HEADER_USER": "User",
+  "REMOTE_USER_VPN_TABLE_HEADER_DOWN_PKTS": "Down pkts",
+  "REMOTE_USER_VPN_TABLE_HEADER_UP_PKTS": "Up pkts",
+  "REMOTE_USER_VPN_TABLE_HEADER_DOWN_BYTES": "Down bytes",
+  "REMOTE_USER_VPN_TABLE_HEADER_UP_BYTES": "Up bytes",
+  "REMOTE_USER_VPN_TABLE_HEADER_UPTIME": "Uptime",
+  "REMOTE_USER_VPN_TABLE_HEADER_ACTIONS": "Actions",
+
+  "REMOTE_USER_VPN_TABLE_ACTION_TERMINATE": "Terminate",
+
+  "REMOTE_USER_VPN_TABLE_EMPTY_HEADER": "No Current Remote User VPN sessions found",
+  "REMOTE_USER_VPN_TABLE_EMPTY_NO_REMOTE_USER_VPN": "Currently there are no Remote User VPN sessions active.",
+  "REMOTE_USER_VPN_TABLE_EMPTY_NO_MATCHES": "No Remote User VPN sessions match that search criteria.",
+  
+  "REMOTE_USER_VPN_TERMINATE_CONFIRM_TITLE": "Please confirm",
+  "REMOTE_USER_VPN_TERMINATE_CONFIRM_MESSAGE": "Are you sure you want to terminate this remote user VPN connection?",
+  "REMOTE_USER_VPN_TERMINATE_SUCCESS": "Connection terminated",
+  "REMOTE_USER_VPN_TERMINATE_ERROR": "Error during connection termination"
+}
