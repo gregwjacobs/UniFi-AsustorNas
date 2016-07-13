@@ -3,7 +3,9 @@
 	"package":"unifi",
 	"name":"UniFi Controller",
 	"version":"5.0.7",
-	"depends":[],
+	"depends":[
+		"mongodb(>=2.2)",
+	],
 	"conflicts":[],
 	"developer":"https://github.com/rorychatt/UniFi-AsustorNas",
 	"maintainer":"Rory Chatterton",
@@ -14,8 +16,10 @@
   },
   "adm-desktop":{
 	"app":{
-	  "type":"webserver",
-	  "session-id":"true"
+	  "type":"custom",
+	  "protocol":"https",
+	  "port":8443,
+	  "url":"/"
 	},
 	"privilege":{
 	  "accessible":"administrators",
@@ -26,14 +30,10 @@
 	"symbolic-link":{
 	},
 	"share-folder":[
-	  {
-		"name":"Download",
-		"description":"Download default share."
-	  }
 	],
 	"port":[
-	  "8843",
-	  "8880"
+	  "8443",
+	  "8080"
 	],
 	"boot-priority":{
 	  "start-order":90,

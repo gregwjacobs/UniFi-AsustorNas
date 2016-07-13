@@ -1,7 +1,6 @@
 #!/bin/sh
 
 PKG_NAME="$APKG_PKG_NAME"
-PKG_DIR="/usr/local/AppCentral/unifi"
 RUN_AS="admin:administrators"
 REPOS_DIR="$PKG_DIR/repository"
 
@@ -14,12 +13,12 @@ export LANG=en_US.UTF-8
 case "$1" in
   start)
 	/bin/echo "Starting $PKG_NAME... "
-	java -jar $PKG_DIR/UniFi/lib/ace.jar start	
+	java -jar $APKG_PKG_DIR/lib/ace.jar start	
   ;;
 	
   stop)
 	/bin/echo "Shutting down $PKG_NAME... "
-	java -jar $PKG_DIR/UniFi/lib/ace.jar stop	
+	java -jar $APKG_PKG_DIR/lib/ace.jar stop	
   ;;
 		
   restart)

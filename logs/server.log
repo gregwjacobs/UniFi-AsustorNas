@@ -1,0 +1,19 @@
+[2016-07-10 13:57:55,866] <launcher> INFO  system - *** Running for the first time, creating identity ***
+[2016-07-10 13:57:55,876] <launcher> INFO  system - UUID: e79fcf3d-8071-4f5e-9620-24a403e59f5c
+[2016-07-10 13:57:55,876] <launcher> INFO  system - ======================================================================
+[2016-07-10 13:57:55,876] <launcher> INFO  system - UniFi 5.0.7 (build atag_5.0.7_8593 - release) is started
+[2016-07-10 13:57:55,876] <launcher> INFO  system - ======================================================================
+[2016-07-10 13:57:55,886] <launcher> INFO  system - BASE dir:/volume1/Media/Repos/UniFi-AsustorNAS
+[2016-07-10 13:57:55,920] <launcher> INFO  system - Current System IP: 192.168.1.11
+[2016-07-10 13:57:55,921] <launcher> INFO  system - Hostname: CHATTSERVER
+[2016-07-10 13:57:55,938] <launcher> INFO  system - Valid keystore is missing. Generating one ...
+[2016-07-10 13:57:55,938] <launcher> INFO  system - Generating Certificate[UniFi]... please wait...
+[2016-07-10 13:58:06,930] <launcher> INFO  system - Certificate[UniFi] generated!
+[2016-07-10 13:58:09,540] <db-server> ERROR system - [exec] error, rc=100
+[2016-07-10 13:58:09,541] <db-server> INFO  db     - DbServer stopped
+[2016-07-10 13:58:14,667] <db-server> ERROR system - [exec] error, rc=100
+[2016-07-10 13:58:14,667] <db-server> INFO  db     - DbServer stopped
+[2016-07-10 13:58:19,813] <db-server> ERROR system - [exec] error, rc=100
+[2016-07-10 13:58:19,813] <db-server> INFO  db     - DbServer stopped
+[2016-07-10 13:58:24,952] <db-server> ERROR system - [exec] error, rc=100
+[2016-07-10 13:58:24,953] <db-server> INFO  db     - DbServer stopped
