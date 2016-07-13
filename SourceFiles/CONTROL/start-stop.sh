@@ -13,6 +13,7 @@ export LANG=en_US.UTF-8
 case "$1" in
   start)
 	/bin/echo "Starting $PKG_NAME... "
+	chmod -R 775  $APKG_PKG_DIR/data
 	java -jar $APKG_PKG_DIR/lib/ace.jar start	
   ;;
 	
