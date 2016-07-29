@@ -2,14 +2,14 @@
   "general":{
 	"package":"unifi",
 	"name":"UniFi Controller",
-	"version":"5.0.7",
+	"version":"5.0.7R2",
 	"depends":[],
 	"conflicts":[],
 	"developer":"https://github.com/rorychatt/UniFi-AsustorNas",
 	"maintainer":"Rory Chatterton",
 	"email":"rorychatt@gmail.com",
 	"website":"https://www.ubnt.com/download/unifi/",
-	"architecture":"i386",
+	"architecture":"x86-64",
 	"firmware":"2.0"
   },
   "adm-desktop":{
@@ -28,6 +28,10 @@
 	"symbolic-link":{
 	},
 	"share-folder":[
+		{
+			"name":"Unifi",
+			"description":"Default Storage for Unifi Controller Data Files"
+		}
 	],
 	"port":[
 	  "8443",
