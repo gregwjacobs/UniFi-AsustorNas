@@ -13,13 +13,19 @@ export LANG=en_US.UTF-8
 case "$1" in
   start)
 	/bin/echo "Starting $PKG_NAME... "
-	chmod -R 775  $APKG_PKG_DIR/data
-	java -jar $APKG_PKG_DIR/lib/ace.jar start	
+	chmod -R 775 $APKG_PKG_DIR/data
+	nohup java -jar $APKG_PKG_DIR/lib/ace.jar start & 	
   ;;
 	
   stop)
 	/bin/echo "Shutting down $PKG_NAME... "
-	java -jar $APKG_PKG_DIR/lib/ace.jar stop	
+	java -jar $APKG_PKG_DIR/lib/ace.jar stop
+	
+	mkdir /share/MongoDB/unifi
+	mkdir /share/MongoDB/unifi/db
+	ln -s /share/MongoDB/unifi/db $APKG_PKG_DIR/data/db
+	
+	
   ;;
 		
   restart)

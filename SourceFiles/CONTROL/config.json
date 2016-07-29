@@ -3,9 +3,7 @@
 	"package":"unifi",
 	"name":"UniFi Controller",
 	"version":"5.0.7",
-	"depends":[
-		"mongodb(>=2.2)"
-	],
+	"depends":[],
 	"conflicts":[],
 	"developer":"https://github.com/rorychatt/UniFi-AsustorNas",
 	"maintainer":"Rory Chatterton",
